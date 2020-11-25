@@ -35,5 +35,9 @@
 header{
   background-image: url("../img/sfondo-pesci.svg");
   height:800px;
+  color: white;
+}
+header>h1{
+  font-weight: bold;
 }
 /* /Header */
