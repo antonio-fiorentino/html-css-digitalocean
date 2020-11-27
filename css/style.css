@@ -70,6 +70,7 @@ form{
 }
 
 h2{
+  color: #031c4e;
   font-weight: bold;
 }
 
@@ -148,12 +149,21 @@ h3{
   font-weight: bold;
 }
 
-.row>div>p{
+p{
   color: #5c6a88;
 }
+
+/* Carousel */
 
 .designed{
   height: 1000px;
   background-color: #e3e3e3;
   margin-top: 50px;
+  padding: 20px 0px;
 }
+
+.designed *{
+  margin:25px 0px;
+}
+
+/* /Carousel */
