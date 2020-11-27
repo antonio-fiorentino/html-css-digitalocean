@@ -54,7 +54,7 @@ header>h1{
 /* header>.container>{
   padding: 0
 } */
-.container>.container >.row{
+header .row:last-child{
   background-color: #f3f5f9;
   border-radius: 1%;
   color: black;
