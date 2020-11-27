@@ -42,9 +42,8 @@ nav img{
 
 /* Header */
 header{
-  padding-top: 50px;
+  padding: 50px 0px;
   background-image: url("../img/sfondo-pesci.svg");
-  height:650px;
   color: white;
 }
 header>h1{
@@ -52,12 +51,15 @@ header>h1{
 }
 
 /* Form */
+/* header>.container>{
+  padding: 0
+} */
 .container>.container{
   background-color: #f3f5f9;
   border-radius: 1%;
   color: black;
   text-align: center;
-  height: 350px;
+  padding: 10px 15px;
 }
 
 .form-group>::placeholder{
@@ -76,7 +78,9 @@ form button{
   width: 100%;
   display: block;
   margin-top: 5px;
+
 }
+
 .button-blue{
   background-color: #579aff;
   color: #fff;
@@ -95,15 +99,13 @@ form button{
 /* Logo */
 
 .loghi{
-  height: 580px;
   background-color: #e3e3e3;
-  padding-top: 15px;
+  padding: 15px 0px;
   text-align: center;
 }
 
 @media screen and (min-width: 768px){
   .loghi{
-    height: 250px;
   }
 }
 
@@ -145,4 +147,10 @@ h3{
 
 .row>div>p{
   color: #5c6a88;
+}
+
+.designed{
+  height: 1000px;
+  background-color: #e3e3e3;
+  margin-top: 50px;
 }
