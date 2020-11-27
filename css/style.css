@@ -3,7 +3,7 @@ body{
 }
 /* nav */
 .bl-navbar {
-  background-color: #fff;
+  background-color: #f3f5f9;
   color: #fff;
 }
 
@@ -44,33 +44,105 @@ nav img{
 header{
   padding-top: 50px;
   background-image: url("../img/sfondo-pesci.svg");
-  height:800px;
+  height:650px;
   color: white;
 }
 header>h1{
   font-weight: bold;
 }
-header>.container{
-
-}
 
 /* Form */
 .container>.container{
-  background-color: #fff;
+  background-color: #f3f5f9;
   border-radius: 1%;
   color: black;
   text-align: center;
+  height: 350px;
+}
+
+.form-group>::placeholder{
+  font-weight: bold;
 }
 
 h2{
   font-weight: bold;
 }
 
-h2:last-of-type{
-  color: blue;
+form h2:last-of-type{
+  color: #4591ff;
 }
 
+form button{
+  width: 100%;
+  display: block;
+  margin-top: 5px;
+}
+.button-blue{
+  background-color: #579aff;
+  color: #fff;
+}
 
+.logo-google{
+  text-align: left;
+}
+.container> form a{
+  text-decoration: underline;
+}
 /* /Form */
 
 /* /Header */
+
+/* Logo */
+
+.loghi{
+  height: 580px;
+  background-color: #e3e3e3;
+  padding-top: 15px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px){
+  .loghi{
+    height: 250px;
+  }
+}
+
+h3{
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: center;
+  color: #7d89a1;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.loghi img{
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 30px;
+}
+/* /Logo */
+.log div{
+  text-align: left;
+}
+
+.lista{
+  list-style-type: none;
+}
+.lista>li>a{
+  color: #828ca2;
+}
+.lista>li{
+  padding: 10px;
+  border-left: 1px solid #828ca2;
+  margin:0;
+}
+
+.titolino{
+  color: #031c4e;
+  font-weight: bold;
+}
+
+.row>div>p{
+  color: #5c6a88;
+}
