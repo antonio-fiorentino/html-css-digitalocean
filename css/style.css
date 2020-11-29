@@ -51,15 +51,15 @@ header>h1{
 }
 
 /* Form */
-/* header>.container>{
-  padding: 0
-} */
 header .row:last-child{
   background-color: #f3f5f9;
   border-radius: 1%;
   color: black;
   text-align: center;
   padding: 10px 15px;
+}
+header p{
+  color: black;
 }
 form{
   max-width: 100%;
@@ -160,10 +160,115 @@ p{
   background-color: #e3e3e3;
   margin-top: 50px;
   padding: 20px 0px;
+  margin-bottom: 20px;
 }
 
 .designed *{
-  margin:25px 0px;
+  margin:15px 0px;
 }
 
+.designed>.row i{
+  padding: 20px;
+  font-size: 100px;
+  vertical-align: middle;
+  color: #5c6a88;
+}
+
+.designed>.row i:hover{
+  color: #031c4e;
+}
+
+.pallini{
+  margin-bottom: 20px;
+
+}
+
+.pallino{
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #031c4e;
+}
+
+.pallino:hover{
+  background-color: #031c4e;
+}
+/* /Carousel */
+
+a{
+  font-weight: bold;
+}
+
+.business{
+  margin-bottom: 80px;
+}
+
+.business div{
+  margin: 15px 0px;
+}
+
+/* Customer */
+
+.customers{
+  background-image: linear-gradient(#0439B6,#0114BA);
+  color:#fff;
+  padding: 30px 0px;
+}
+
+.customers>h2{
+  color: #fff;
+}
+
+.padd{
+  padding: 20px;
+}
+
+.destra li,
+.sinistra li{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.destra ul,
+.sinistra ul{
+  border-bottom:1px solid #fff;
+  padding: 0px 0px 8px 0px;
+}
+
+.destra ul:last-of-type{
+  border: 0px;
+}
+
+.sinistra ul:last-of-type{
+  border: 0px;
+}
+
+.aldestra{
+  padding-left: 150px;
+}
+
+.alsinistra{
+  padding-right: 0px;
+}
+
+.alcentro{
+  padding-left: 45px;
+}
+/* /Customer */
+
+/* Carousel */
+
+.caro{
+  margin:100px 0px;
+}
+
+.caro img{
+  width: 350px;
+  height: 50px;
+}
+
+.caro p{
+  font-size: 20px;
+}
 /* /Carousel */
