@@ -58,7 +58,8 @@ form{
   padding: 10px 15px;
 }
 header p{
-  color: black;
+  color: #e3e3e3;
+  font-weight: bold;
 }
 form{
   max-width: 100%;
@@ -267,6 +268,7 @@ a{
   height: 600px;
   margin: 100px auto 100px auto;
   background-color: #fff;
+  padding-top: 20%;
 }
 
 .bg-lgrey{
