@@ -109,7 +109,8 @@ form button{
 }
 
 @media screen and (min-width: 768px){
-  .loghi{
+  form{
+    padding: 0px 15px;
   }
 }
 
@@ -261,8 +262,14 @@ a{
 /* Carousel */
 
 .caro{
-  width: 800px;
+  width: 700px;
+  height: 600px;
   margin: 100px auto 100px auto;
+  background-color: #fff;
+}
+
+.bg-lgrey{
+  background-color: #e3e3e3;
 }
 
 .caro img{
@@ -280,9 +287,36 @@ a{
 
 .started{
   background-image: linear-gradient(#0439B6,#0114BA);
+  padding: 10px 0px 25px 0px;
 }
 
 .started h2{
   color:#fff;
   font-weight: bold;
+}
+
+.started .btn{
+  color: #0439B6;
+  font-weight: bold;
+}
+
+footer{
+  background-color: #000080;
+  height: 1000px;
+  padding: 50px 0px;
+}
+
+.grey{
+  color: grey;
+}
+
+.lgrey{
+  color: lightgrey;
+}
+
+.social{
+  text-align: left;
+}
+.social li{
+  display: inline-block;
 }
